@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    
+</head>
+
+<body >
+
+    <section class="main">
+        <article>
+            <form method="post" name="formulario" id="formulario">
+                <input type="text" name="resultado" id="resultado" disabled>
+                <br>
+                <br> 
+               
+                <div id="FilaUno">
+                    <button type="button" name="division"  value="/" onClick="inicial(division.value)">/</button>
+                    <button type="button" name="multiplicacion"  value="*" onClick="inicial(multiplicacion.value)">*</button>
+                    <button type="button" name="resta"  value="-" onClick="inicial(resta.value)">-</button>
+                    <button type="button" name="suma"  value="+" onClick="inicial(suma.value)">+</button>
+                </div>
+                <br>
+                <div id="FilaDos">
+                    <button type="button" name="siete"  value="7" onClick="inicial(siete.value)">7</button>
+                    <button type="button" name="ocho"  value="8" onClick="inicial(ocho.value)">8</button>
+                    <button type="button" name="nueve"  value="9" onClick="inicial(nueve.value)">9</button>
+                    <button type="button" name="borrar"  value="borrar" onClick="inicial(borrar.value)"><</button>
+                    
+                </div>
+                <br>
+                <div id="FilaTres">
+                    <button type="button" name="cuatro"  value="4" onClick="inicial(cuatro.value)">4</button>
+                    <button type="button" name="cinco"  value="5" onClick="inicial(cinco.value)">5</button>
+                    <button type="button" name="seis"  value="6" onClick="inicial(seis.value)">6</button>
+                    <button type="button" name="cero"  value="0" onClick="inicial(cero.value)">0</button>
+                </div>
+                <br>
+                <div id="FilaCuatro">
+                    <button type="button" name="uno"  value="1" onClick="inicial(uno.value)">1</button>
+                    <button type="button" name="dos"  value="2" onClick="inicial(dos.value)">2</button>
+                    <button type="button" name="tres"  value="3" onClick="inicial(tres.value)">3</button>
+                    <button type="button" name="igual"  value="=" onClick="inicial(igual.value)">=</button>
+                </div>
+                <br>
+
+            </form>
+        </article>
+    </section>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

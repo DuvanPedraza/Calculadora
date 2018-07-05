@@ -1,0 +1,17 @@
+.main{
+    width: 20%;
+    background: #f7f7f7;
+    margin: 0 40%;
+}
+#resultado{
+    width: 99%;
+    text-align: right;
+    height: 50px;
+    font-size: 40px;
+}
+button{
+    width: 23.6%;
+    text-align: center;
+    height: 30px;
+    font-size: 15px;
+}
